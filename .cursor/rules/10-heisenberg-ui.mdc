@@ -1,0 +1,10 @@
+---
+description: Require the Muses skill chain for UI work.
+globs: "**/*.{css,scss,html,tsx,jsx,vue,svelte}"
+alwaysApply: false
+---
+
+For a task that changes a user-facing interface, follow the task manifest's UI
+skill chain: Picasso for tokens and visual contract, Escher for real data
+contracts, Vermeer for implementation and interaction states. Do not invent
+backend responses; record missing fields in the task artifact.

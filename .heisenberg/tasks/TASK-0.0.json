@@ -1,0 +1,16 @@
+{
+  "task_id": "TASK-0.0",
+  "task_type": "greenfield",
+  "status": "approved",
+  "selected_skills": [
+    "roadmap-wbs-planner"
+  ],
+  "required_artifacts": [],
+  "required_before_edit": [],
+  "files_in_scope": [
+    ".gitignore",
+    "README.md",
+    "config/workflow.json"
+  ],
+  "requires_graperoot": false
+}

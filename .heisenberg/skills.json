@@ -1,0 +1,85 @@
+{
+  "version": "3.0.0",
+  "skills": {
+    "roadmap-wbs-planner": {
+      "source": "skills/core/roadmap-wbs-planner/SKILL.md",
+      "task_types": ["greenfield", "brownfield-onboarding", "roadmap"],
+      "artifact": "roadmap.md"
+    },
+    "concept-to-code-bridge": {
+      "source": "skills/core/conceptual-understanding/SKILL.md",
+      "task_types": ["feature", "refactor", "bug", "ui", "algorithm"],
+      "artifact": "understanding.md"
+    },
+    "narrsistic-pluto": {
+      "source": "skills/core/narrsistic-pluto/SKILL.md",
+      "task_types": ["architecture", "complex-bug", "high-risk-refactor"],
+      "artifact": "architecture-analysis.md"
+    },
+    "codebase-design": {
+      "source": "skills/core/codebase-design/SKILL.md",
+      "task_types": ["feature", "refactor", "ui", "algorithm"],
+      "artifact": "design.md"
+    },
+    "cs-domain-learning": {
+      "source": "skills/core/cs-domain-learning/SKILL.md",
+      "task_types": ["algorithm", "concurrency", "persistence", "search", "security-protocol", "networking", "performance"],
+      "artifact": "cs-concepts.md"
+    },
+    "picasso": {
+      "source": "skills/the-muses/picasso/SKILL.md",
+      "task_types": ["ui"],
+      "artifact": "design-system.md"
+    },
+    "escher": {
+      "source": "skills/the-muses/escher/SKILL.md",
+      "task_types": ["ui"],
+      "artifact": "backend-requirements.md"
+    },
+    "vermeer": {
+      "source": "skills/the-muses/vermeer/SKILL.md",
+      "task_types": ["ui"],
+      "artifact": "ui-verification.md"
+    },
+    "testing-verification": {
+      "source": "skills/core/testing-verification/SKILL.md",
+      "task_types": ["feature", "refactor", "bug", "ui", "algorithm", "architecture"],
+      "artifact": "verification.md"
+    },
+    "brandkit": {"source": "UItasteskills/brandkit/SKILL.md", "task_types": ["brand-system"], "artifact": "brand-direction.md"},
+    "design-taste-frontend": {"source": "UItasteskills/design-taste-frontend/SKILL.md", "task_types": ["web-marketing-ui", "ui-redesign"], "artifact": "design-read.json"},
+    "design-taste-frontend-v1": {"source": "UItasteskills/design-taste-frontend-v1/SKILL.md", "task_types": ["legacy-web-marketing-ui"], "artifact": "design-read.json", "status": "legacy"},
+    "full-output-enforcement": {"source": "UItasteskills/full-output-enforcement/SKILL.md", "task_types": ["complete-delivery"], "artifact": "delivery-completeness.md"},
+    "gpt-taste": {"source": "UItasteskills/gpt-taste/SKILL.md", "task_types": ["web-marketing-ui"], "artifact": "motion-plan.md", "role": "optional-style"},
+    "high-end-visual-design": {"source": "UItasteskills/high-end-visual-design/SKILL.md", "task_types": ["web-marketing-ui", "responsive-mobile-web-ui"], "artifact": "visual-archetype.md", "role": "optional-style"},
+    "image-to-code": {"source": "UItasteskills/image-to-code/SKILL.md", "task_types": ["web-marketing-ui"], "artifact": "web-reference-analysis.md"},
+    "imagegen-frontend-mobile": {"source": "UItasteskills/imagegen-frontend-mobile/SKILL.md", "task_types": ["native-mobile-ui"], "artifact": "mobile-reference-manifest.json"},
+    "imagegen-frontend-web": {"source": "UItasteskills/imagegen-frontend-web/SKILL.md", "task_types": ["web-marketing-ui"], "artifact": "web-reference-manifest.json"},
+    "industrial-brutalist-ui": {"source": "UItasteskills/industrial-brutalist-ui/SKILL.md", "task_types": ["web-marketing-ui", "web-product-ui"], "artifact": "visual-archetype.md", "role": "optional-style"},
+    "minimalist-ui": {"source": "UItasteskills/minimalist-ui/SKILL.md", "task_types": ["web-marketing-ui", "web-product-ui", "responsive-mobile-web-ui"], "artifact": "visual-archetype.md", "role": "optional-style"},
+    "redesign-existing-projects": {"source": "UItasteskills/redesign-existing-projects/SKILL.md", "task_types": ["ui-redesign"], "artifact": "redesign-audit.md"},
+    "stitch-design-taste": {"source": "UItasteskills/stitch-design-taste/SKILL.md", "task_types": ["stitch-ui"], "artifact": "DESIGN.md"},
+    "mobile-app-implementation": {"source": "UItasteskills/mobile-app-implementation/SKILL.md", "task_types": ["native-mobile-ui"], "artifact": "mobile-implementation-plan.md"}
+  },
+  "required_skill_sets": {
+    "feature": ["concept-to-code-bridge", "codebase-design", "testing-verification"],
+    "bug": ["concept-to-code-bridge", "testing-verification"],
+    "refactor": ["concept-to-code-bridge", "codebase-design", "testing-verification"],
+    "architecture": ["concept-to-code-bridge", "narrsistic-pluto", "codebase-design", "testing-verification"],
+    "ui": ["concept-to-code-bridge", "codebase-design", "picasso", "escher", "vermeer", "testing-verification"],
+    "algorithm": ["concept-to-code-bridge", "codebase-design", "cs-domain-learning", "testing-verification"],
+    "concurrency": ["concept-to-code-bridge", "codebase-design", "cs-domain-learning", "testing-verification"],
+    "persistence": ["concept-to-code-bridge", "codebase-design", "cs-domain-learning", "testing-verification"],
+    "search": ["concept-to-code-bridge", "codebase-design", "cs-domain-learning", "testing-verification"],
+    "security-protocol": ["concept-to-code-bridge", "codebase-design", "cs-domain-learning", "testing-verification"],
+    "networking": ["concept-to-code-bridge", "codebase-design", "cs-domain-learning", "testing-verification"],
+    "performance": ["concept-to-code-bridge", "codebase-design", "cs-domain-learning", "testing-verification"],
+    "brand-system": ["brandkit", "picasso", "testing-verification"],
+    "web-marketing-ui": ["concept-to-code-bridge", "codebase-design", "design-taste-frontend", "imagegen-frontend-web", "image-to-code", "picasso", "vermeer", "testing-verification"],
+    "web-product-ui": ["concept-to-code-bridge", "codebase-design", "picasso", "escher", "vermeer", "testing-verification"],
+    "responsive-mobile-web-ui": ["concept-to-code-bridge", "codebase-design", "picasso", "escher", "vermeer", "testing-verification"],
+    "native-mobile-ui": ["concept-to-code-bridge", "codebase-design", "imagegen-frontend-mobile", "mobile-app-implementation", "picasso", "escher", "testing-verification"],
+    "ui-redesign": ["concept-to-code-bridge", "codebase-design", "redesign-existing-projects", "picasso", "vermeer", "testing-verification"],
+    "stitch-ui": ["concept-to-code-bridge", "codebase-design", "stitch-design-taste", "picasso", "testing-verification"]
+  }
+}
