@@ -10,7 +10,9 @@
   "files_in_scope": [
     ".gitignore",
     "README.md",
-    "config/workflow.json"
+    "config/workflow.json",
+    ".heisenberg/skills.json",
+    "skills/hci/"
   ],
   "requires_graperoot": false
 }
